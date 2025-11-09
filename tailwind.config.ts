@@ -50,15 +50,17 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Social media specific colors
-        like: {
-          red: "hsl(var(--like-red))",
+        // Cultural specific colors
+        cultural: {
+          gold: "hsl(var(--cultural-gold))",
+          maroon: "hsl(var(--cultural-maroon))",
+          saffron: "hsl(var(--cultural-saffron))",
         },
         success: {
           green: "hsl(var(--success-green))",
         },
-        warning: {
-          orange: "hsl(var(--warning-orange))",
+        learning: {
+          blue: "hsl(var(--learning-blue))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
@@ -88,6 +90,11 @@ export default {
         'gradient-secondary': 'var(--gradient-secondary)', 
         'gradient-hero': 'var(--gradient-hero)',
         'gradient-card': 'var(--gradient-card)',
+        'gradient-cultural': 'var(--gradient-cultural)',
+      },
+      fontFamily: {
+        'kannada': ['"Noto Sans Kannada"', 'sans-serif'],
+        'poppins': ['"Poppins"', 'sans-serif'],
       },
       transitionTimingFunction: {
         smooth: "cubic-bezier(0.4, 0, 0.2, 1)",
